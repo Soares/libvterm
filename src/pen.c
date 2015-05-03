@@ -2,16 +2,17 @@
 
 #include <stdio.h>
 
+/* Theme: Tomorrow Night Bright */
 static const VTermColor ansi_colors[] = {
   /* R    G    B */
   {   0,   0,   0 }, // black
-  { 224,   0,   0 }, // red
-  {   0, 224,   0 }, // green
-  { 224, 224,   0 }, // yellow
-  {   0,   0, 224 }, // blue
-  { 224,   0, 224 }, // magenta
-  {   0, 224, 224 }, // cyan
-  { 224, 224, 224 }, // white == light grey
+  { 213,  78,  83 }, // red
+  { 185, 202,  74 }, // green
+  { 231, 197,  71 }, // yellow
+  { 122, 166, 218 }, // blue
+  { 195, 151, 216 }, // magenta
+  { 112, 192, 177 }, // cyan
+  { 234, 234, 234 }, // white == light grey
 
   // high intensity
   { 128, 128, 128 }, // black
